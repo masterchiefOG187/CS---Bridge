@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Datenschutzerklärung — Spaeter Bridge</title>
+<style>
+  :root{ --db:#1F3864; --gr:#595959; --hg:#F2F2F2; --or:#ED7D31; }
+  *{ box-sizing:border-box; }
+  body{ margin:0; font-family:"Segoe UI",system-ui,Arial,sans-serif; color:var(--gr);
+        line-height:1.55; background:#fff; }
+  header{ background:var(--db); color:#fff; padding:28px 20px 22px; border-bottom:5px solid var(--or); }
+  .box{ max-width:760px; margin:0 auto; padding:0 20px; }
+  h1{ margin:0; font-size:24px; }
+  header p{ margin:6px 0 0; color:#AEBBD4; font-size:15px; }
+  h2{ color:var(--db); font-size:17px; margin:30px 0 8px; }
+  main{ padding:8px 0 40px; }
+  table{ border-collapse:collapse; width:100%; margin-top:10px; font-size:15px; }
+  th{ background:var(--db); color:#fff; text-align:left; padding:9px 12px; font-weight:600; }
+  td{ padding:9px 12px; border-bottom:1px solid #e3e3e3; vertical-align:top; }
+  tr:nth-child(even) td{ background:var(--hg); }
+  .merk{ background:var(--hg); border-left:4px solid var(--or); padding:12px 16px; margin:22px 0; }
+  ul{ margin:8px 0 0; padding-left:20px; }
+  li{ margin:4px 0; }
+  a{ color:var(--db); }
+  footer{ border-top:1px solid #e3e3e3; margin-top:40px; padding:16px 0 30px; font-size:13px; }
+  @media (max-width:520px){ h1{font-size:21px} table{font-size:14px} td,th{padding:8px} }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="box">
+    <h1>Datenschutzerklärung</h1>
+    <p>Spaeter Bridge · Stand 02.10.2026</p>
+  </div>
+</header>
+
+<main class="box">
+
+  <h2>1. Verantwortlicher</h2>
+  <p>Fabian Schick, Eberdingen (Deutschland)<br>
+  E-Mail: <a href="mailto:fab79.schick@gmail.com">fab79.schick@gmail.com</a></p>
+
+  <h2>2. Zweck der Anwendung</h2>
+  <p>Die Spaeter Bridge ist ein privates Automatisierungswerkzeug des Verantwortlichen. Sie nimmt
+  E-Mails samt Anhängen entgegen, erzeugt daraus Dokumente und liefert diese als Cloud-Link
+  zurück.</p>
+
+  <div class="merk">
+    <strong>Einziger Nutzer ist der Verantwortliche selbst.</strong> Die Anwendung steht Dritten
+    nicht zur Verfügung, hat keine Registrierung und verarbeitet keine Daten anderer Nutzerkonten.
+  </div>
+
+  <h2>3. Verarbeitete Daten</h2>
+  <table>
+    <tr><th>Daten</th><th>Herkunft und Zweck</th></tr>
+    <tr><td>E-Mail-Betreff und -Text</td><td>Aus dem Google-Konto des Verantwortlichen; bestimmt die auszuführende Aufgabe.</td></tr>
+    <tr><td>Dateianhänge</td><td>Tabellen, Formulare, PDF-Dateien, Bilder; dienen als Eingangsdaten der Verarbeitung.</td></tr>
+    <tr><td>Absenderadresse</td><td>Prüfung der Berechtigung und Zustellung des Ergebnisses.</td></tr>
+    <tr><td>Erzeugte Dateien</td><td>Ergebnis der Verarbeitung, abgelegt im Google Drive des Verantwortlichen.</td></tr>
+  </table>
+  <p style="margin-top:10px">Es werden keine Daten Dritter aktiv erhoben. Enthalten Anhänge
+  personenbezogene Daten — etwa Namen in geschäftlicher Korrespondenz —, werden diese
+  ausschließlich zur Erfüllung der jeweiligen Aufgabe verarbeitet.</p>
+
+  <h2>4. Google-Berechtigungen</h2>
+  <table>
+    <tr><th>Berechtigung</th><th>Verwendung</th></tr>
+    <tr><td>Gmail lesen</td><td>Abholen der auslösenden Nachricht samt Anhängen.</td></tr>
+    <tr><td>Gmail senden</td><td>Rücksendung des Ergebnisses an die Absenderadresse.</td></tr>
+    <tr><td>Google Drive schreiben</td><td>Ablage der erzeugten Datei und Bereitstellung des Links.</td></tr>
+  </table>
+
+  <div class="merk">
+    Die Nutzung der von Google APIs empfangenen Informationen durch diese Anwendung erfolgt im
+    Einklang mit den
+    <a href="https://developers.google.com/terms/api-services-user-data-policy" rel="noopener">
+    Google API Services User Data Policy</a> einschließlich der Anforderungen zur eingeschränkten
+    Verwendung (<em>Limited Use</em>). Daten aus Gmail und Google Drive werden ausschließlich für
+    die oben beschriebenen Funktionen verwendet, nicht an Dritte verkauft, nicht für Werbung
+    genutzt und nicht für Profilbildung ausgewertet.
+  </div>
+
+  <h2>5. Eingesetzte Dienste</h2>
+  <table>
+    <tr><th>Dienst</th><th>Rolle</th></tr>
+    <tr><td>Google (Gmail, Drive)</td><td>Quelle der Eingangsdaten und Ablage der Ergebnisse. Konto des Verantwortlichen.</td></tr>
+    <tr><td>Railway</td><td>Betrieb der Verarbeitungsdienste. Server außerhalb der EU; Verarbeitung im Auftrag.</td></tr>
+    <tr><td>Anthropic</td><td>Sprachmodell zur Auswertung von Betreff, Text und Anhängen. Verarbeitung im Auftrag; keine Nutzung zum Modelltraining.</td></tr>
+  </table>
+
+  <h2>6. Speicherdauer</h2>
+  <ul>
+    <li>Eingangsdaten werden nur für die Dauer der Verarbeitung im Arbeitsspeicher gehalten und
+        anschließend verworfen.</li>
+    <li>Erzeugte Dateien verbleiben im Google Drive des Verantwortlichen, bis er sie löscht.</li>
+    <li>Ausführungsprotokolle der Automatisierung werden nach wenigen Wochen automatisch
+        überschrieben.</li>
+  </ul>
+
+  <h2>7. Weitergabe</h2>
+  <p>Es findet keine Weitergabe an Dritte statt, die über die unter Punkt 5 genannte
+  Auftragsverarbeitung hinausgeht. Die Anwendung versendet ausschließlich an die E-Mail-Adressen
+  des Verantwortlichen; Adressen aus Anhängen oder fremden Texten werden nicht als Ziel
+  verwendet.</p>
+
+  <h2>8. Zugriff widerrufen</h2>
+  <p>Der erteilte Zugriff auf das Google-Konto kann jederzeit unter
+  <a href="https://myaccount.google.com/permissions" rel="noopener">myaccount.google.com/permissions</a>
+  entzogen werden. Die Anwendung stellt ihre Arbeit dann unmittelbar ein.</p>
+
+  <h2>9. Rechte der betroffenen Personen</h2>
+  <p>Es bestehen die Rechte auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung,
+  Datenübertragbarkeit und Widerspruch sowie das Recht auf Beschwerde bei einer
+  Aufsichtsbehörde. Anfragen richten Sie bitte an die oben genannte E-Mail-Adresse.</p>
+
+  <h2>10. Änderungen</h2>
+  <p>Diese Erklärung wird angepasst, wenn sich Funktionsumfang oder eingesetzte Dienste ändern.
+  Maßgeblich ist die hier veröffentlichte Fassung.</p>
+
+  <p style="margin-top:26px"><a href="index.html">Zurück zur Startseite</a></p>
+
+</main>
+
+<footer class="box">FS&nbsp;|&nbsp;claudeAI</footer>
+
+</body>
+</html>

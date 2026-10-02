@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Spaeter Bridge</title>
+<style>
+  :root{ --db:#1F3864; --gr:#595959; --hg:#F2F2F2; --or:#ED7D31; }
+  *{ box-sizing:border-box; }
+  body{ margin:0; font-family:"Segoe UI",system-ui,Arial,sans-serif; color:var(--gr);
+        line-height:1.55; background:#fff; }
+  header{ background:var(--db); color:#fff; padding:28px 20px 22px; border-bottom:5px solid var(--or); }
+  .box{ max-width:760px; margin:0 auto; padding:0 20px; }
+  header .box{ padding:0 20px; }
+  h1{ margin:0; font-size:26px; letter-spacing:.3px; }
+  header p{ margin:6px 0 0; color:#AEBBD4; font-size:15px; }
+  h2{ color:var(--db); font-size:18px; margin:32px 0 8px; }
+  main{ padding:8px 0 40px; }
+  table{ border-collapse:collapse; width:100%; margin-top:10px; font-size:15px; }
+  th{ background:var(--db); color:#fff; text-align:left; padding:9px 12px; font-weight:600; }
+  td{ padding:9px 12px; border-bottom:1px solid #e3e3e3; vertical-align:top; }
+  tr:nth-child(even) td{ background:var(--hg); }
+  .merk{ background:var(--hg); border-left:4px solid var(--or); padding:12px 16px; margin:22px 0; }
+  a{ color:var(--db); }
+  footer{ border-top:1px solid #e3e3e3; margin-top:40px; padding:16px 0 30px; font-size:13px; }
+  @media (max-width:520px){ h1{font-size:22px} table{font-size:14px} td,th{padding:8px} }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="box">
+    <h1>Spaeter Bridge</h1>
+    <p>Private Arbeitsautomatisierung für den Stahlhandel</p>
+  </div>
+</header>
+
+<main class="box">
+
+  <p>Die Spaeter Bridge ist ein privates Werkzeug von Fabian&nbsp;Schick, Vertrieb Qualitäts- und
+  Edelbaustahl. Sie nimmt eine E-Mail mit Anhängen entgegen, erzeugt daraus ein fertiges Dokument
+  und schickt es als Cloud-Link zurück. Es gibt keine Oberfläche, keine Anmeldung und keine
+  weiteren Nutzer — die Bedienung ist die E-Mail selbst.</p>
+
+  <div class="merk">
+    <strong>Einziger Nutzer:</strong> der Betreiber. Die Anwendung ist nicht öffentlich nutzbar und
+    wirbt keine Nutzer an.
+  </div>
+
+  <h2>Was sie tut</h2>
+  <table>
+    <tr><th>Schritt</th><th>Vorgang</th></tr>
+    <tr><td>Eingang</td><td>Eine E-Mail mit festgelegtem Stichwort und Kennwort im Betreff wird erkannt. Alles andere bleibt unberührt.</td></tr>
+    <tr><td>Verarbeitung</td><td>Anhänge werden gelesen und daraus ein Dokument erzeugt — Tabellen, Formulare, Auswertungen.</td></tr>
+    <tr><td>Rückgabe</td><td>Das Ergebnis wird im Cloud-Speicher des Betreibers abgelegt; der Link geht per E-Mail an die Absenderadresse zurück.</td></tr>
+  </table>
+
+  <h2>Welche Berechtigungen sie braucht</h2>
+  <table>
+    <tr><th>Berechtigung</th><th>Wofür</th></tr>
+    <tr><td>Gmail lesen</td><td>Die auslösende E-Mail samt Anhängen abholen.</td></tr>
+    <tr><td>Gmail senden</td><td>Das Ergebnis an die Absenderadresse zurückschicken.</td></tr>
+    <tr><td>Google&nbsp;Drive schreiben</td><td>Die erzeugte Datei ablegen und den Link bereitstellen.</td></tr>
+  </table>
+  <p style="margin-top:10px">Die Berechtigungen gelten ausschließlich für das Google-Konto des
+  Betreibers. Fremde Konten werden nicht angebunden.</p>
+
+  <h2>Kontakt</h2>
+  <p>Fabian Schick<br>
+  E-Mail: <a href="mailto:fab79.schick@gmail.com">fab79.schick@gmail.com</a></p>
+
+  <p><a href="datenschutz.html">Datenschutzerklärung</a></p>
+
+</main>
+
+<footer class="box">FS&nbsp;|&nbsp;claudeAI</footer>
+
+</body>
+</html>
